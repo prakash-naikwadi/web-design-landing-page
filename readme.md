@@ -29,7 +29,7 @@ This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"**
 
 ## 📌 What I Learn
 
-👉 Learn how to use `linear-gradient` and apply gradient on buttons.
+👉 Learn how to use `linear-gradient` and apply gradient on buttons.  
 👉 How to place images in proper places using positions.  
 👉 Achieve some responsiveness using FlexBox & used rem unit.
 
