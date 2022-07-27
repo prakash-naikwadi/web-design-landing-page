@@ -1,0 +1,189 @@
+/* Design Systems
+Fonts:
+font-family: 'Roboto', sans-serif;
+
+- FONT SIZES SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* ------------------- */
+/*     Global  Reset         */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Reset Font Weights */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+/* set up the body */
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-image: url(../images/backcover.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 60%;
+  background-size: 60%;
+
+  /* min-height: 100vh; */
+}
+
+.main-div {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+/* ------------------------- */
+/*  Navbar Section */
+/* ------------------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.8rem;
+}
+
+.logo {
+  width: 12.4rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 3.2rem;
+  list-style: none;
+}
+
+.nav-items a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #2e318d;
+
+  text-decoration: none;
+  /* color: inherit; */
+}
+
+.signin-btn {
+  border: none;
+  cursor: pointer;
+  /* background: rgb(109, 102, 226); */
+  background: linear-gradient(
+    90deg,
+    rgba(109, 102, 226, 1) 0%,
+    rgba(75, 34, 147, 0.9108018207282913) 0%,
+    rgba(186, 54, 218, 0.9136029411764706) 53%,
+    rgba(217, 58, 233, 0.9808298319327731) 100%
+  );
+  /* padding: 0 1.2rem; */
+  border-radius: 100px;
+  padding: 0.6rem 1.6rem;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* left section */
+
+.heading {
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: #2e318d;
+
+  margin-top: 9.6rem;
+}
+
+.left-section {
+  max-width: 50%;
+}
+
+.text {
+  max-width: 40%;
+  line-height: 2;
+
+  font-size: 1.2rem;
+  color: #2e318d;
+
+  margin: 4.4rem 0 4.4rem 0;
+}
+
+.learn-more-btn {
+  border: none;
+  cursor: pointer;
+  /* background: rgb(109, 102, 226); */
+  background: linear-gradient(
+    90deg,
+    rgba(109, 102, 226, 1) 0%,
+    rgba(75, 34, 147, 0.9108018207282913) 0%,
+    rgba(186, 54, 218, 0.9136029411764706) 53%,
+    rgba(217, 58, 233, 0.9808298319327731) 100%
+  );
+  padding: 1rem 2.4rem;
+  border-radius: 100px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* imgs div */
+
+.vector-img {
+  width: 7%;
+  position: absolute;
+  left: 40%;
+}
+
+.vector-dot {
+  width: 1.5%;
+  position: absolute;
+  left: 44%;
+}
+
+.intro-img {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  width: 40%;
+  z-index: -100;
+  /* transform: scale(-1); */
+}
