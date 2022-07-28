@@ -1,10 +1,10 @@
-## ⭐ HTML CSS Template Project 08 ⭐
+## ⭐ Web Design Landing Page Project 08 ⭐
 
 This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
 <br>
 <br>
 
-## 📌 **Live Site URL:** <a href="https://prakash-naikwadi.github.io/html-css-live-class-project-08/">**Visit Now** 🚀</a>
+## 📌 **Live Site URL:** <a href="=https://prakash-naikwadi.github.io/web-design-landing-page/">**Visit Now** 🚀</a>
 
 <br>
 
